@@ -98,11 +98,11 @@ print(li)
 
 # 19.
 li = [1,2,3,4,5]
-li.insert(1, 100)
+li.insert(1, 100)   #インデックス1番の前に100を追加
 print(li)
 
 # 20.
 li = [1,2,3,4,5]
-for i in li:
-    if i % 2 == 0:
+for i in li:        #リストの中の値を繰り返し確認
+    if i % 2 == 0:  #もし偶数なら
         print(i)
